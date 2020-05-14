@@ -2,6 +2,12 @@
 
 //console.log(nomeDeUsuario);
 
-let nomeDeUsuario = "LucasR"
+var nomeDeUsuario = "LucasR";
+ nomeDeUsuarios = "teste";
 
-console.log(nomeDeUsuario)
+console.log(nomeDeUsuario);
+
+if(true){
+    let nomeDeUsuario = "Renato";
+    console.log(nomeDeUsuario);
+}
