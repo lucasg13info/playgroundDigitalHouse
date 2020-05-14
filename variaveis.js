@@ -1,3 +1,7 @@
-var nomeDeUsuario = "Lucas";
+//var nomeDeUsuario = "Lucas";
 
-console.log(nomeDeUsuario);
+//console.log(nomeDeUsuario);
+
+let nomeDeUsuario = "LucasR"
+
+console.log(nomeDeUsuario)
