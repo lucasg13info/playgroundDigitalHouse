@@ -83,24 +83,24 @@ let cachorro = {
     vacinado: ["Raiva", "Verme", "Cinomose"],
 }
 
-//mostra o objeto inteiro
-console.log(cachorro);
+// //mostra o objeto inteiro
+// console.log(cachorro);
 
-// quero uma propriedade
-console.log(cachorro.nome);
+// // quero uma propriedade
+// console.log(cachorro.nome);
 
-let nomeCachorro = cachorro.nome;
-console.log("Oi " + nomeCachorro + " é hora de tomar banho ");
+// let nomeCachorro = cachorro.nome;
+// console.log("Oi " + nomeCachorro + " é hora de tomar banho ");
 
 
 
-//Cachorro é castrado?
+//Cachorro é castrado e qual seu sexo?
 function eCastrado(cachorroTestado){
-    if (cachorro.castrado === true){
-        console.log("Cachorro é castrado")
+    if (cachorro.castrado === true && cachorro.sexo == "M"){
+        console.log("O " + cachorro.nome + " é cadastrado e de sexo " + cachorro.sexo)
     }else{
         console.log("Não é castrado")
     }
 }
 
-console.log(cachorro.castrado);
+eCastrado(cachorro.castrado);
