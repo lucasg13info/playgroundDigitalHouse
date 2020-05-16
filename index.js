@@ -83,24 +83,62 @@ let cachorro = {
     vacinado: ["Raiva", "Verme", "Cinomose"],
 }
 
-// //mostra o objeto inteiro
-// console.log(cachorro);
+// // //mostra o objeto inteiro
+// // console.log(cachorro);
 
-// // quero uma propriedade
-// console.log(cachorro.nome);
+// // // quero uma propriedade
+// // console.log(cachorro.nome);
 
-// let nomeCachorro = cachorro.nome;
-// console.log("Oi " + nomeCachorro + " é hora de tomar banho ");
+// // let nomeCachorro = cachorro.nome;
+// // console.log("Oi " + nomeCachorro + " é hora de tomar banho ");
 
 
 
-//Cachorro é castrado e qual seu sexo?
-function eCastrado(cachorroTestado){
-    if (cachorro.castrado === true && cachorro.sexo == "M"){
-        console.log("O " + cachorro.nome + " é cadastrado e de sexo " + cachorro.sexo)
-    }else{
-        console.log("Não é castrado")
+// //Cachorro é castrado e qual seu sexo?
+// function eCastrado(cachorroTestado){
+//     if (cachorro.castrado === true && cachorro.sexo == "M"){
+//         console.log("O " + cachorro.nome + " é cadastrado e de sexo " + cachorro.sexo)
+//     }else{
+//         console.log("Não é castrado")
+//     }
+// }
+
+// eCastrado(cachorro.castrado);
+
+
+
+
+
+// ARRAY DE CACHORROS
+let cachorros = [
+    {
+        nome: "Malu",
+        idade: 3,
+        sexo: "M",
+        castrado: true,
+        servicos: ['banho', 'tossa'],
+    },
+    {
+        nome: "Batman",
+        idade: 2,
+        sexo: "M",
+        castrado: false,
+        servicos: ["banho", "tosa", "corte de unha"]
+    },
+    {
+        nome: "Mel",
+        idade: 4,
+        sexo: "F",
+        castrado: false,
+        servicos: ["banho", "corte de unha"]
     }
-}
+];
 
-eCastrado(cachorro.castrado);
+//TODOS OS DADOS DO ARRAY
+//console.log(cachorros);
+
+//UM CACHORRO EM ESPECÍFICO.
+console.log(cachorros[2].nome, cachorros[2].sexo)
+
+
+
