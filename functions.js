@@ -1,4 +1,5 @@
 //Modo declarativo
+
 function somar(a,b){
     //cod
     console.log("estou somando")
@@ -18,3 +19,10 @@ let multiplicar = function(a,b){
 
 let resultadoMultiplicar = multiplicar(2,10);
 console.log(resultadoMultiplicar);
+
+
+
+function saudar (nome, sobrenome ){
+    return 'olá, ' + nome + ' ' + sobrenome + '!';
+}
+saudar("Lucas", "Estefano");
