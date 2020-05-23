@@ -1,3 +1,5 @@
+// Estudando com os vídeos
+ 
 //lenght - Quantidade de strings, conta também os espaços
 let texto = "Oi eu sou o Lucas"
 console.log(texto.length);
