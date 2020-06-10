@@ -15,3 +15,15 @@ console.log(superHerois)
 
 
 
+
+let nome = 'Scooby';
+let idade = 7;
+let gostaDeComer = true;
+
+let cachorro  = {
+    nome,
+    idade,
+    gostaDeComer
+}
+
+module.exports = cachorro
