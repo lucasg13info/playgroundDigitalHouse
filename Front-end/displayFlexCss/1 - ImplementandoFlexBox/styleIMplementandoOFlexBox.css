@@ -1,0 +1,24 @@
+.caixa{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin: 0;
+}
+
+.caixa{
+    width: 640px;
+    margin: 20px auto;
+    border: 3px solid gray; /*Cria a caixa em volta do conteudo*/
+    display: flex; /*Inserindo displayflex no pai*/
+    flex-wrap: wrap; /* Respeira o tamanho de cada elemento e pula as linhas*/
+}
+
+
+.caixa div{
+    padding:20px; /*Espaçamento dentro dos itens*/
+    background-color: orangered;
+    margin: 10px; /*Coloca cada elemento dentro de uma caixa separada por espaço em branco*/
+    width: 200px; /*Largura da cor laranja*/
+}

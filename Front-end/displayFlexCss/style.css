@@ -1,0 +1,28 @@
+.caixa{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin: 0;
+}
+
+.caixa{
+    width: 640px; /*Largura*/
+    height: 300px; /*Altura*/
+    margin: 90px auto;
+    border: 3px solid gray; /*Cria a caixa em volta do conteudo*/
+    display: flex; /*Inserindo displayflex no pai*/
+    flex-wrap: wrap; /*QUebra de linha*/
+    flex-direction: row; 
+    justify-content: center; /*ALinha o elemento todo no centro da pagina com base no tamnho do container*/
+    align-items: center; /*ALinha ao centro usando somente o que está sendo usado no container filho*/
+}
+
+
+.caixa div{
+    padding:20px; /*Espaçamento dentro dos itens*/
+    background-color: orangered;
+    margin: 10px; /*Coloca cada elemento dentro de uma caixa separada por espaço em branco*/
+    width: 100px; /*Largura da cor laranja*/
+}
