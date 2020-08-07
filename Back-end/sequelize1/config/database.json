@@ -1,0 +1,10 @@
+{
+    "devel": {
+      "username": "root",
+      "password": null,
+      "database": "locadora",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+
+  }
+}
