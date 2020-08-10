@@ -1,4 +1,11 @@
-let cores = ["branco", "azul", "preto", "roxo"]
+//Desestruturando um objeto
 
-
-console.log(cores[2])
+let pessoa = {
+    nome: "Lucas",
+    altura:"1.80",
+    peso:"80kg"
+    
+    
+}
+let {nome, altura} = pessoa;
+console.log(nome)
