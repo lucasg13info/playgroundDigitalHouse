@@ -11,7 +11,7 @@ function alarme2(){
 //Só executa depois de 2s
 setTimeout(function(){
     console.log(alarme1())
-}, 5000)
+}, 2000)
 
 //Executa antes
 console.log(alarme2())
