@@ -1,7 +1,8 @@
 //Define o tempo que irá executar cada parte do cod, usa o setTimeout para isso
 
 function alarme1(){
-    return "Hora de acordar são 08:00h";
+    return "Hora de acordar são 08:00h";  
+    
 }
       
 function alarme2(){
