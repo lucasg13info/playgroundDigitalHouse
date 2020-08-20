@@ -1,0 +1,10 @@
+Criando o app com Express Generator
+
+1- Instalação:
+    npm install express-generator -g (realiza a instalação de forma global, para todos os projetos)
+
+2- Iniciando o projeto com express generator
+    express myApp --ejs
+
+3- Acesse a pasta criada e dê o comando npm install para instalar as dependencias e criar a node modules
+    npm install 

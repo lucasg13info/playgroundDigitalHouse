@@ -3,7 +3,7 @@
 function alarme1(){
     return "Hora de acordar são 08:00h";
 }
-
+      
 function alarme2(){
     return "Está perto da sua hora de acordar são 7:50h"
 
