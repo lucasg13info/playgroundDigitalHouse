@@ -7,6 +7,7 @@ const ProdutoController = {
 
         res.send ("Deletando o produto com id: " + id);
     }
+    
 }
 
 module.exports = ProdutoController;
